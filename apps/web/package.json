@@ -1,0 +1,40 @@
+{
+  "name": "@terra-watch/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@terra-watch/types": "file:../../packages/types",
+    "@terra-watch/utils": "file:../../packages/utils",
+    "@vitejs/plugin-react": "latest",
+    "cesium": "latest",
+    "d3": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite-plugin-cesium": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/d3": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "postcss": "latest",
+    "@tailwindcss/postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest"
+  }
+}

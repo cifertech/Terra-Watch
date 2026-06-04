@@ -1,0 +1,25 @@
+{
+  "name": "terra-watch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-time 3D globe showing active natural disasters on Earth, powered by NASA EONET.",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:web": "npm --workspace @terra-watch/web run dev",
+    "dev:api": "npm --workspace @terra-watch/api run dev",
+    "build": "npm run build --workspaces --if-present",
+    "build:pages": "npm --workspace @terra-watch/web run build",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "npm-run-all": "latest",
+    "typescript": "latest"
+  }
+}
