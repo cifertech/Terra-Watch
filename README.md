@@ -9,174 +9,164 @@
 </p>
 
 <p align="center">
-  <a href="https://cifertech.github.io/Terra-Watch/"><img src="https://img.shields.io/badge/🌐_Live_Demo-Terra_Watch-1A56DB?style=for-the-badge" alt="Live Demo" /></a>
+  <a href="https://cifertech.github.io/Terra-Watch/">
+    <img src="https://img.shields.io/badge/🌐 Live Demo-Terra Watch-1A56DB?style=for-the-badge" alt="Live Demo" />
+  </a>
   <img src="https://img.shields.io/badge/License-MIT-00BFFF?style=for-the-badge" alt="MIT License" />
-  <img src="https://img.shields.io/badge/Data-NASA_·_NOAA_·_USGS-FF4500?style=for-the-badge" alt="Data Sources" />
-  <img src="https://img.shields.io/badge/Built_with-CesiumJS-2979FF?style=for-the-badge" alt="CesiumJS" />
+  <img src="https://img.shields.io/badge/Data-NASA · NOAA · USGS-FF4500?style=for-the-badge" alt="Data Sources" />
+  <img src="https://img.shields.io/badge/Built with-CesiumJS-2979FF?style=for-the-badge" alt="CesiumJS" />
   <img src="https://img.shields.io/github/stars/cifertech/Terra-Watch?style=for-the-badge&color=FFC107" alt="GitHub Stars" />
 </p>
 
 <p align="center">
-  <a href="https://cifertech.github.io/Terra-Watch/">🚀 Try it live — no install, no login, works in your browser</a>
+  <a href="https://cifertech.github.io/Terra-Watch/"><strong>🚀 Try it live — no install, no login, open in your browser</strong></a>
 </p>
 
 ---
 
 ## What is Terra Watch?
 
-Terra Watch is an open-source, browser-based mission control for planet Earth. It pulls live data from NASA, USGS, and NOAA to show every active wildfire, earthquake, volcano, flood, and storm on a photorealistic 3D globe — in real time.
+Terra Watch is an open-source, browser-based mission control for planet Earth. It pulls live data from NASA EONET, USGS, and NOAA to show every active wildfire, earthquake, volcano, flood, and storm on a photorealistic 3D globe — right now.
 
-Open it and within seconds you'll see 500+ active events pulsing across the Earth. Click any event to see satellite imagery, magnitude history, affected population estimates, and live news headlines. Rewind the globe back to the year 2000 and watch two decades of disasters unfold.
+Open it and within seconds you'll see 500+ active events pulsing across the Earth. Click any event to see satellite imagery, magnitude history, population impact, and live news. Rewind history back to the year 2000 and watch two decades of disasters play out.
 
-**No backend required. No API keys. Runs entirely in your browser.**
+**No install. No API keys. No backend. Runs entirely in your browser.**
 
 ---
 
 ## ✨ Features
 
-### 🔴 Live Disaster Globe
-A dark, atmospheric CesiumJS globe with real satellite imagery. Every event type has its own animated marker style — wildfires flicker, earthquakes ripple, hurricanes spin, volcanoes glow. Events pulse with intensity scaled to their magnitude.
-
-### 📡 Multi-Source Live Feed
-Data from four independent NASA and government sources, unified into a single event stream:
-- **NASA EONET v3** — wildfires, volcanoes, floods, droughts, sea ice
-- **USGS Earthquake Hazards** — real-time global earthquakes updated every 60 seconds
-- **NOAA National Hurricane Center** — Atlantic and Pacific tropical storm tracks
-- **NASA GIBS** — daily satellite imagery tiles draped on the globe
-
-### ⏱️ Time Machine
-A scrubber at the bottom lets you replay history from 2000 to today. Watch a hurricane form and spiral across the Atlantic. Watch wildfire seasons spread across California year after year. Play forward at 1 day per second.
-
-### 🛰️ Satellite Imagery Overlay
-Toggle real NASA satellite tiles on the globe — true color, thermal anomalies, and aerosol/smoke layers. See the actual smoke plume from an active wildfire draped on the Earth.
-
-### 👥 Population Impact
-When you click an event, Terra Watch estimates how many people live within 50, 100, and 250 km of the disaster. *"This wildfire is within 80 km of 2.3 million people."*
-
-### 🤖 Ask the Globe
-An AI-powered chat panel lets you ask questions about what's happening on Earth right now. *"Which event is most severe?" "What's happening near Indonesia?"*
-
-### 🔗 Shareable Views
-Every globe state — camera position, active layers, selected event, and scrubber date — is encoded in the URL. Share exactly what you're seeing with one click.
-
-### 📊 Live Stats Dashboard
-A collapsible sidebar shows global summary stats: total active events by category, most severe event right now, events this week vs last year, and data source health.
+| Feature | Description |
+|---------|-------------|
+| 🌍 **3D Satellite Globe** | Photorealistic Earth using CesiumJS with Esri World Imagery — looks like Google Earth |
+| 🔴 **Live Event Markers** | Pulsing, animated markers for wildfires, earthquakes, volcanoes, floods, storms, drought, and sea ice |
+| 📊 **Live Dashboard** | Real-time count of active events by category, most severe event, affected countries |
+| 🔍 **Event Detail Panel** | Click any event for magnitude history, source link, population impact estimate, and news headlines |
+| ⏱️ **Time Machine** | Scrubber from 2000 to today — replay any historical disaster period |
+| 🛰️ **NASA GIBS Layers** | Toggle real NASA satellite imagery: true colour, thermal anomalies, aerosol/smoke |
+| 👥 **Population Overlay** | Heatmap showing population density — see how many people are near each disaster |
+| 🤖 **Ask the Globe** | AI-powered chat: ask questions about what's happening on Earth right now |
+| 🔗 **Shareable URLs** | Every view is encoded in the URL — share exactly what you're seeing |
+| 📱 **Mobile Friendly** | Works on phone and tablet — touch to rotate, pinch to zoom |
 
 ---
 
 ## 📸 Screenshots
 
-| Globe View | Event Detail | Time Machine |
-|---|---|---|
-| *(add screenshot)* | *(add screenshot)* | *(add screenshot)* |
+> Add screenshots here after recording — a GIF at the top is the single most important thing for GitHub stars.
+
+---
+
+## 🗺️ How It Works
+
+Terra Watch runs entirely as a static site deployed on GitHub Pages. It calls NASA, USGS, and NOAA APIs directly from your browser — no backend server required.
+
+```
+Your browser
+  ├── NASA EONET v3        → wildfires, volcanoes, floods, storms, sea ice
+  ├── USGS Earthquake Feed → real-time global earthquakes (updated every 60s)
+  ├── NOAA NHC             → Atlantic & Pacific tropical storms
+  ├── NASA GIBS WMTS       → daily satellite imagery tiles
+  ├── GDELT                → geo-tagged news headlines
+  └── Wikipedia API        → region and event summaries
+```
+
+All rendered on a CesiumJS 3D globe with Esri World Imagery as the basemap.
 
 ---
 
 ## 🚀 Quick Start
 
-**Just want to use it?** → [Open the live demo](https://cifertech.github.io/Terra-Watch/) — nothing to install.
+**Just want to use it?**
+→ [Open the live demo](https://cifertech.github.io/Terra-Watch/) — nothing to install.
 
-**Want to run it locally:**
+**Want to run it locally?**
+
+Since Terra Watch is a pre-built static site, just clone the repo and serve it with any static file server:
 
 ```bash
+# Clone the repo
 git clone https://github.com/cifertech/Terra-Watch.git
 cd Terra-Watch
-npm install
-npm run dev
+
+# Serve locally (any of these work)
+npx serve .
+python3 -m http.server 8080
+# Then open http://localhost:8080
 ```
 
-Open `http://localhost:5173` — the globe loads instantly with live NASA data.
+> ⚠️ Opening `index.html` directly as a `file://` URL won't work due to browser security restrictions on local files. Use a local server as shown above.
 
 ---
 
 ## 🗄️ Data Sources
 
-All data is free and open. No API keys required for the core experience.
+All data is free and open. No API keys required.
 
 | Source | Data | Update Frequency |
 |--------|------|-----------------|
-| [NASA EONET v3](https://eonet.gsfc.nasa.gov/docs/v3) | Wildfires, volcanoes, floods, storms, sea ice | Every 5 min |
+| [NASA EONET v3](https://eonet.gsfc.nasa.gov/docs/v3) | Wildfires, volcanoes, floods, storms, drought, sea ice | Every 5 min |
 | [USGS Earthquake Hazards](https://earthquake.usgs.gov/) | Global earthquakes M0+ | Every 60 sec |
-| [NOAA NHC](https://www.nhc.noaa.gov/) | Atlantic & Pacific tropical storms | Every 10 min |
-| [NASA GIBS](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/gibs) | Satellite imagery tiles | Daily |
+| [NOAA National Hurricane Center](https://www.nhc.noaa.gov/) | Atlantic & Pacific tropical storms | Every 10 min |
+| [NASA GIBS WMTS](https://earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/gibs) | Satellite imagery tiles | Daily |
 | [GDELT](https://www.gdeltproject.org/) | News headlines tagged by location | Continuous |
 | [Wikipedia API](https://www.mediawiki.org/wiki/API:REST_API) | Region and event summaries | On demand |
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Framework | React 18 + TypeScript |
-| 3D Globe | CesiumJS |
-| Data overlays | D3.js |
-| Heatmap layers | Deck.gl |
-| State management | Zustand |
-| Styling | Tailwind CSS |
-| Build tool | Vite |
-| Hosting | GitHub Pages |
-| Optional proxy | Node.js + Express |
-
----
-
-## 📁 Repository Structure
+## 🗂️ Repository Structure
 
 ```
-terra-watch/
-  ├── apps/
-  │   ├── web/          # React frontend (Vite + CesiumJS)
-  │   └── api/          # Optional Node.js cache/proxy server
-  ├── packages/
-  │   ├── types/        # Shared TypeScript event model
-  │   └── utils/        # Shared geo/date utilities
-  ├── docs/
-  │   └── demo.gif      # README demo GIF
-  ├── LAYERS.md         # How to add a new data layer
-  ├── CONTRIBUTING.md   # Contribution guide
-  └── README.md
+Terra-Watch/
+  ├── index.html          # App entry point
+  ├── assets/
+  │   ├── index-*.js      # Bundled application (React + all logic)
+  │   └── index-*.css     # Bundled styles
+  ├── cesium/             # CesiumJS library (self-hosted for GitHub Pages)
+  │   ├── Cesium.js
+  │   ├── Workers/
+  │   ├── Assets/
+  │   └── Widgets/
+  ├── 404.html            # GitHub Pages SPA fallback
+  ├── .nojekyll           # Disables Jekyll processing on GitHub Pages
+  └── docs/
+      └── demo.gif        # README demo capture
 ```
 
 ---
 
 ## 🚢 Deployment
 
-Terra Watch deploys automatically to GitHub Pages on every push to `main`.
+Terra Watch is deployed as a static site on GitHub Pages — no build step needed to deploy since the assets are pre-built and committed.
 
 **To deploy your own fork:**
-1. Fork this repo
-2. Go to Settings → Pages → Source → GitHub Actions
-3. Push to `main` — it deploys automatically
-
-**Manual build:**
-```bash
-npm run build:pages
-```
+1. Fork this repo on GitHub
+2. Go to **Settings → Pages → Source → Deploy from branch**
+3. Select `main` branch, `/ (root)` folder
+4. Click Save — your globe will be live at `https://yourusername.github.io/Terra-Watch/`
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are very welcome! The project is structured so new data layers and visual improvements can be added without touching the core globe code.
+Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get started.
 
-**Good first contributions:**
-- 🗺️ Add a new data layer (see [LAYERS.md](./LAYERS.md))
-- 🎨 Improve marker animations
-- 📱 Mobile UI improvements
-- 🌍 Add more event categories
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) for full details.
+Ideas for contributions:
+- 🎨 Visual improvements to event markers or the UI
+- 📱 Mobile layout improvements
+- 🌍 New event category support
+- 🐛 Bug fixes and API fallback improvements
 
 ---
 
 ## 📄 License
 
-MIT — free to use, fork, and build on. If you build something with Terra Watch, we'd love to know about it.
+MIT — free to use, fork, and build on.
 
 ---
 
 <p align="center">
-  Built with 🌍 by <a href="https://github.com/cifertech">cifertech</a> · Powered by NASA open data
+  Built with ❤️ by <a href="https://github.com/cifertech">cifertech</a> · Powered by NASA open data
 </p>
 
 <p align="center">
