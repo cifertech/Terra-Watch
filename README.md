@@ -12,7 +12,6 @@
   <a href="https://cifertech.github.io/Terra-Watch/">
     <img src="https://img.shields.io/badge/🌐 Live Demo-Terra Watch-1A56DB?style=for-the-badge" alt="Live Demo" />
   </a>
-  <img src="https://img.shields.io/badge/License-MIT-00BFFF?style=for-the-badge" alt="MIT License" />
   <img src="https://img.shields.io/badge/Data-NASA · NOAA · USGS-FF4500?style=for-the-badge" alt="Data Sources" />
   <img src="https://img.shields.io/badge/Built with-CesiumJS-2979FF?style=for-the-badge" alt="CesiumJS" />
   <img src="https://img.shields.io/github/stars/cifertech/Terra-Watch?style=for-the-badge&color=FFC107" alt="GitHub Stars" />
