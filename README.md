@@ -52,7 +52,7 @@ Open it and within seconds you'll see 500+ active events pulsing across the Eart
 
 ## 📸 Screenshots
 
-> Add screenshots here after recording — a GIF at the top is the single most important thing for GitHub stars.
+<img width="1920" height="910" alt="image" src="https://github.com/user-attachments/assets/e0e75c9a-27f8-403b-b666-9a8fbf433d59" />
 
 ---
 
