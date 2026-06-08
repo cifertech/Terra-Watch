@@ -1,27 +1,36 @@
-<p align="center">
-  <img src="./docs/demo.gif" alt="Terra Watch — Live Earth Disaster Globe" width="100%" />
-</p>
+<div align="center">
 
-<h1 align="center">🌍 Terra Watch</h1>
+  <img src="https://github.com/user-attachments/assets/743b8ee2-ae0b-4ca4-95ea-06819682ee78" alt="Terra Watch Banner" width="100%"/>
 
-<p align="center">
-  <strong>Real-time 3D globe showing every active natural disaster on Earth — powered by NASA</strong>
-</p>
+  <br/>
+  <br/>
 
-<p align="center">
-  <a href="https://cifertech.github.io/Terra-Watch/">
-    <img src="https://img.shields.io/badge/🌐 Live Demo-Terra Watch-1A56DB?style=for-the-badge" alt="Live Demo" />
-  </a>
-  <img src="https://img.shields.io/badge/Data-NASA · NOAA · USGS-FF4500?style=for-the-badge" alt="Data Sources" />
-  <img src="https://img.shields.io/badge/Built with-CesiumJS-2979FF?style=for-the-badge" alt="CesiumJS" />
-  <img src="https://img.shields.io/github/stars/cifertech/Terra-Watch?style=for-the-badge&color=FFC107" alt="GitHub Stars" />
-</p>
+  <p align="center">
+    <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/static/v1?label=cifertech&message=Terra-Watch&color=76c442&logo=github"/></a>
+    <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/github/stars/cifertech/Terra-Watch?style=social"/></a>
+    <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/github/forks/cifertech/Terra-Watch?style=social"/></a>
+    <a href="https://cifertech.github.io/Terra-Watch/"><img src="https://img.shields.io/badge/Live Demo-Terra Watch-76c442?logo=googlechrome&logoColor=black"/></a>
+    <img src="https://img.shields.io/badge/Data-NASA · NOAA · USGS-76c442"/>
+    <img src="https://img.shields.io/badge/Built with-CesiumJS-76c442"/>
+    <img src="https://img.shields.io/badge/license-MIT-76c442"/>
+  </p>
 
-<p align="center">
-  <a href="https://cifertech.github.io/Terra-Watch/"><strong>🚀 Try it live — no install, no login, open in your browser</strong></a>
-</p>
+  <p align="center">
+    <a href="https://twitter.com/techcifer"><img src="https://img.shields.io/badge/Twitter-76c442?logo=x&logoColor=black"/></a>
+    <a href="https://www.instagram.com/cifertech/"><img src="https://img.shields.io/badge/Instagram-76c442?logo=instagram&logoColor=black"/></a>
+    <a href="https://www.youtube.com/c/techcifer"><img src="https://img.shields.io/badge/YouTube-76c442?logo=youtube&logoColor=black"/></a>
+    <a href="https://cifertech.net/"><img src="https://img.shields.io/badge/Website-76c442?logo=googlechrome&logoColor=black"/></a>
+  </p>
 
----
+  <br/>
+
+  <p align="center">
+    <a href="https://cifertech.github.io/Terra-Watch/"><strong>🚀 Try it live — no install, no login, open in your browser</strong></a>
+  </p>
+
+</div>
+
+
 
 ## What is Terra Watch?
 
