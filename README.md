@@ -9,7 +9,6 @@
     <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/static/v1?label=cifertech&message=Terra-Watch&color=76c442&logo=github"/></a>
     <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/github/stars/cifertech/Terra-Watch?style=social"/></a>
     <a href="https://github.com/cifertech/Terra-Watch"><img src="https://img.shields.io/github/forks/cifertech/Terra-Watch?style=social"/></a>
-    <a href="https://cifertech.github.io/Terra-Watch/"><img src="https://img.shields.io/badge/Live Demo-Terra Watch-76c442?logo=googlechrome&logoColor=black"/></a>
     <img src="https://img.shields.io/badge/Data-NASA · NOAA · USGS-76c442"/>
     <img src="https://img.shields.io/badge/Built with-CesiumJS-76c442"/>
     <img src="https://img.shields.io/badge/license-MIT-76c442"/>
